@@ -2,7 +2,6 @@ package school.mjc.stage0.loops.task2;
 
 public class PowerOfTwo {
     public static void main(String[] args) {
-
     }
     public void printPower(int power) {
         int counter = 0;
