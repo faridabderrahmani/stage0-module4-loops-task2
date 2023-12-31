@@ -7,12 +7,12 @@ public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
         int counter = 0;
         int factorial = 1;
+        System.out.println(factorial);
         while(counter < printToInclusive){
             factorial *= (counter + 1);
-            counter++;
             System.out.println(factorial);
+            counter++;
         }
-
 
     }
 }
